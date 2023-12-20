@@ -39,3 +39,10 @@ Compiler for a tiny-version C language.
   - Supports only up to
     - Intermediate code generation stage
 
+## Get started
+```bash
+git clone https://github.com/Sujiuzii/Toy-Compiler-for-TinyC.git
+cd Toy-Compiler-TinyC
+make
+./main
+```

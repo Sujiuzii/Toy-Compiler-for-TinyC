@@ -2,11 +2,11 @@ all: main
 
 CC=clang
 
-CCFLAGS=-Wall -O3
+CCFLAGS=-Wall
 
 main: *.c
-	$(CXX) $(CXXFLAGS) -o main *.c
+	$(CC) $(CCFLAGS) -o main *.c
 
-clean: rm -f test
+clean: rm -f main
 
 .PHONY: all clean
